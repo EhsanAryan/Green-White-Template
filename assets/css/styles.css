@@ -136,6 +136,25 @@ body {
     opacity: 1 !important;
     transform: scale(1) !important;
 }
+
+.desc-span::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 1px;
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: white;
+    transform: scaleX(0);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.desc-span:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+}
 /* End Sidebar */
 
 
@@ -236,3 +255,6 @@ body {
     background-color: rgb(25, 135, 84);
 }
 /* End Custom scrollbar */
+
+
+
