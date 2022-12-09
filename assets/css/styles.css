@@ -29,6 +29,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 !important;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px white;
 }
 
 .right-content {
