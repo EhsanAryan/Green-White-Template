@@ -107,7 +107,7 @@ body {
     z-index: 1000;
     width: 55px;
     height: calc(100vh - 60px);
-    overflow: hidden;
+    overflow: hidden auto;
     transition : var(--transition);
 }
 
@@ -273,12 +273,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(2, 189, 101);
+    background-color: rgb(124, 124, 124);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(25, 135, 84);
+    background-color: rgb(50, 50, 50);
 }
 /* End Custom scrollbar */
 
